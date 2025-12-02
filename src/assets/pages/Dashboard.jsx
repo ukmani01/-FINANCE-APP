@@ -1,0 +1,14 @@
+import { Link } from "react-router-dom";
+
+export default function Dashboard() {
+
+
+    return (
+        <>
+            <Link to="/m">
+
+                <h1>Dashboard</h1>
+            </Link>
+        </>
+    )
+}
